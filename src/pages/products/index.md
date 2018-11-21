@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Coffee Oh Boy!
-backgroundColor: '#445522'
+backgroundColor: '234234'
 image: /img/jumbotron.jpg
 heading: What we offer
 description: >-
@@ -11,6 +11,15 @@ description: >-
   anyone.
 intro:
   blurbs:
+    - image: /img/products-grid2.jpg
+      text: >-
+        Man braid leggings tbh palo santo gluten-free disrupt. Poutine pop-up
+        banh mi intelligentsia mlkshk vaporware austin. Cloud bread truffaut
+        heirloom pickled XOXO readymade kogi, dreamcatcher yr skateboard freegan
+        cray meggings. Squid copper mug keffiyeh, green juice kale chips
+        farm-to-table cray woke ennui palo santo cred iPhone authentic
+        mumblecore. Whatever +1 viral, shabby chic venmo art party adaptogen
+        gastropub before they sold out.
     - image: /img/coffee.png
       text: >
         We sell green and roasted coffee beans that are sourced directly from
