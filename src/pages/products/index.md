@@ -1,8 +1,8 @@
 ---
 templateKey: product-page
-title: Coffee
+title: Coffee Oh Boy!
 image: /img/jumbotron.jpg
-heading: What we offer
+heading: What we offer 
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,

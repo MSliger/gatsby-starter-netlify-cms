@@ -3,8 +3,10 @@ templateKey: 'about-page'
 path: /about
 title: About our values
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+### Virtue
+behavior showing high moral standards: paragons of virtue.
+• a quality considered morally good or desirable in a person: patience is a virtue.
+• a good or useful quality of a thing: Mike was extolling the virtues of the car | there's no virtue in suffering in silence.
 
 ### Single origin
 Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
