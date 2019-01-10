@@ -2,6 +2,7 @@
 templateKey: 'about-page'
 path: /about
 title: About our values
+description: this can work
 ---
 ### Virtue
 behavior showing high moral standards: paragons of virtue.
