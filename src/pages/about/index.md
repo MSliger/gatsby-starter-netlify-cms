@@ -1,8 +1,7 @@
 ---
-templateKey: 'about-page'
-path: /about
-title: About our values
-description: this can work
+templateKey: about-page
+title: poop
+description: poopy
 ---
 ### Virtue
 behavior showing high moral standards: paragons of virtue.
