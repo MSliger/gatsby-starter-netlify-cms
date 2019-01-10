@@ -1,7 +1,8 @@
 ---
 templateKey: about-page
-title: poop
-description: poopy
+title: About our values
+description: |
+  description
 ---
 ### Virtue
 behavior showing high moral standards: paragons of virtue.
