@@ -29,11 +29,12 @@ export default class IndexPage extends React.Component {
                     <span> &bull; </span>
                     <small>{post.frontmatter.date}</small>
                   </p>
+                  {post.frontmatter.image}
                   <p>
                     {post.excerpt}
                     <br />
                     <br />
-                    <Link className="button is-small" to={post.fields.slug}>
+                    <Link className="button" to={post.fields.slug}>
                       Keep Reading →
                     </Link>
                   </p>
@@ -62,13 +63,20 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt(pruneLength: 400)
+          excerpt(pruneLength: 800)
           id
-          fields {
+          fields { 
             slug
           }
           frontmatter {
             title
+            image {
+              childImageSharp {
+                fluid(maxWidth: 2048, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             templateKey
             date(formatString: "MMMM DD, YYYY")
           }
