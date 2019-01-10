@@ -1,7 +1,6 @@
 ---
-templateKey: 'product-page'
-path: /products
-title: Our Coffee
+templateKey: product-page
+title: Coffee!
 image: /img/jumbotron.jpg
 heading: This is my title
 description: >-
@@ -11,6 +10,15 @@ description: >-
   anyone.
 intro:
   blurbs:
+    - image: /img/products-grid2.jpg
+      text: >-
+        Man braid leggings tbh palo santo gluten-free disrupt. Poutine pop-up
+        banh mi intelligentsia mlkshk vaporware austin. Cloud bread truffaut
+        heirloom pickled XOXO readymade kogi, dreamcatcher yr skateboard freegan
+        cray meggings. Squid copper mug keffiyeh, green juice kale chips
+        farm-to-table cray woke ennui palo santo cred iPhone authentic
+        mumblecore. Whatever +1 viral, shabby chic venmo art party adaptogen
+        gastropub before they sold out.
     - image: /img/coffee.png
       text: >
         We sell green and roasted coffee beans that are sourced directly from
@@ -46,7 +54,7 @@ intro:
     knowledge to anyone. This is an edit via identity...
 main:
   heading: Great coffee with no compromises
-  description: >
+  description: >-
     We hold our coffee to the highest standards from the shrub to the cup.
     That’s why we’re meticulous and transparent about each step of the coffee’s
     journey. We personally visit each farm to make sure the conditions are
@@ -99,3 +107,4 @@ pricing:
       plan: Custom
       price: '??'
 ---
+

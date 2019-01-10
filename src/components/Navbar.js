@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
 
+<<<<<<< HEAD
 const Navbar = class extends React.Component {
 
   componentDidMount() {
@@ -73,6 +73,33 @@ const Navbar = class extends React.Component {
       </div>
       </div>
     </div>
+=======
+const Navbar = () => (
+  <nav className="navbar is-transparent">
+	<div className="container">
+	  <div className="navbar-brand">
+		<Link to="/" className="navbar-item">
+		  <figure className="image">
+			<img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+		  </figure>
+		</Link>
+	  </div>
+	  <div className="navbar-end">
+	  <div className="navbar-item has-dropdown is-hoverable">
+		<a className="navbar-link">
+		More
+		</a>
+			<div className="navbar-dropdown">
+				<Link className="navbar-item" to="/about">About</Link>
+				<Link className="navbar-item" to="/products">Products</Link>
+				<Link className="navbar-item" to="/contact">Contact</Link>
+				<hr className="navbar-divider"/>
+				<a className="navbar-item">Report an issue</a>
+			</div>
+		</div>
+	  </div>
+	</div>
+>>>>>>> 47e75678da9562c305407a46b9ce14e80168a48c
   </nav>
   )}
 }
